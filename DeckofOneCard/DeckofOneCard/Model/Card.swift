@@ -12,7 +12,6 @@ struct TopLevelDictionary: Codable {
     let cards: [Card]
 }
 
-
 struct Card: Codable {
     let suit: String
     let value: String
