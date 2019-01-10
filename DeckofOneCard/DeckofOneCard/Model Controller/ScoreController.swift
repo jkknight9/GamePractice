@@ -44,6 +44,9 @@ class ScoreController {
         score = 0
         strikes = 0
     }
+    func deleteMeSoon() {
+        
+    }
     
     // Function to check strikes, update score, and add new highscore
     func checkScore(score: Int, strikes: Int) {
