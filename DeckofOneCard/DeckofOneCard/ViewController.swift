@@ -61,6 +61,9 @@ class ViewController: UIViewController {
     
     @IBAction func higherButtonTapped(_ sender: UIButton) {
     }
+    
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
+    }
 }
 
 
