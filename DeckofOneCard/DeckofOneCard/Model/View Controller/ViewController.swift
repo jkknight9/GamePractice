@@ -90,15 +90,16 @@ class ViewController: UIViewController {
         }
     }
     
+    
     func updateViews() {
         scoreLabel.text = String(score)
         strikesLabel.text = String(strikes)
     }
-        
+    
 }
-
 
 //        let card = CardController.drawCard()
 //        let image = CardController.getImage(card!.image)
 //        cardImageView.image = image
+
 
