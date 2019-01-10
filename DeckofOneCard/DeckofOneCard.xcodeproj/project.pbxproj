@@ -46,6 +46,7 @@
 			children = (
 				E933017921C819200029F1A6 /* DeckofOneCard */,
 				E933017821C819200029F1A6 /* Products */,
+				E9938D6F21E7F6130015F0D7 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,16 +62,47 @@
 			isa = PBXGroup;
 			children = (
 				E933017A21C819200029F1A6 /* AppDelegate.swift */,
-				E933017C21C819200029F1A6 /* ViewController.swift */,
 				E933017E21C819200029F1A6 /* Main.storyboard */,
+				E9938D6C21E7F57C0015F0D7 /* Model */,
+				E9938D6D21E7F5A10015F0D7 /* Model Controller */,
+			);
+			path = DeckofOneCard;
+			sourceTree = "<group>";
+		};
+		E9938D6C21E7F57C0015F0D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9938D6E21E7F5D20015F0D7 /* View Controller */,
+				E933018C21C81C350029F1A6 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9938D6D21E7F5A10015F0D7 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E933018E21C81E680029F1A6 /* CardController.swift */,
 				4190591321E7F011003C00FC /* ScoreController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		E9938D6E21E7F5D20015F0D7 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E933017C21C819200029F1A6 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E9938D6F21E7F6130015F0D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E933018121C819230029F1A6 /* Assets.xcassets */,
 				E933018321C819230029F1A6 /* LaunchScreen.storyboard */,
 				E933018621C819230029F1A6 /* Info.plist */,
-				E933018C21C81C350029F1A6 /* Card.swift */,
-				E933018E21C81E680029F1A6 /* CardController.swift */,
 			);
-			path = DeckofOneCard;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2446Y3VTK6;
-				INFOPLIST_FILE = DeckofOneCard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2446Y3VTK6;
-				INFOPLIST_FILE = DeckofOneCard/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
