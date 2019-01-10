@@ -14,6 +14,9 @@ class ScoreController {
     static let shared = ScoreController()
     
     // MARK: - Properties
+    // User chosen guess
+    var userChoice: Int = 0
+    
     // Initializing score variable
     var score: Int = 0
     
