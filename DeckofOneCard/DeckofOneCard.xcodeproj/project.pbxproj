@@ -180,6 +180,7 @@
 				E933017D21C819200029F1A6 /* ViewController.swift in Sources */,
 				E933018F21C81E680029F1A6 /* CardController.swift in Sources */,
 				E933018D21C81C350029F1A6 /* Card.swift in Sources */,
+				3AE21CB621E7F4BC009EFAF0 /* CardScores.swift in Sources */,
 				E933017B21C819200029F1A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
