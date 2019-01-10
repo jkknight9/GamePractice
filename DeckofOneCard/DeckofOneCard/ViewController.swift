@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var strikesLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var highscoreLabel: UILabel!
+    
+    
+    
     @IBOutlet weak var drawCardButton: UIButton!
     @IBOutlet weak var cardImageView: UIImageView!
     
@@ -48,6 +54,12 @@ class ViewController: UIViewController {
     
     @IBAction func drawCardButtonTapped(_ sender: Any) {
         drawDard()
+    }
+    
+    @IBAction func lowerButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func higherButtonTapped(_ sender: UIButton) {
     }
 }
 
