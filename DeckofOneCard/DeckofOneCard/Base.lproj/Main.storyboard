@@ -88,15 +88,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.16708797216415405" green="0.66600120067596436" blue="0.53403127193450928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="LWE-4V-ilk" firstAttribute="top" secondItem="lpg-x9-BNi" secondAttribute="bottom" constant="23" id="89g-TP-QN7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LWE-4V-ilk" secondAttribute="trailing" constant="30" id="EPM-eh-ZQD"/>
                             <constraint firstItem="LWE-4V-ilk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="FA0-yR-Ni7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lpg-x9-BNi" secondAttribute="trailing" constant="50" id="HdG-AJ-F3U"/>
                             <constraint firstItem="LWE-4V-ilk" firstAttribute="top" secondItem="TY0-DV-n4V" secondAttribute="bottom" constant="150" id="JTA-fX-euC"/>
                             <constraint firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Lka-W2-0xW"/>
                             <constraint firstItem="TY0-DV-n4V" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="TEd-ld-o3h"/>
                             <constraint firstItem="TY0-DV-n4V" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UdF-gf-8GU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8KH-Jf-w10" secondAttribute="trailing" constant="10" id="XGO-GK-reY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LWE-4V-ilk" secondAttribute="bottom" constant="8" id="YRg-fu-chY"/>
                             <constraint firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="v4D-YK-P8z"/>
                             <constraint firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="vfE-oi-nh0"/>
